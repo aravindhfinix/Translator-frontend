@@ -1,0 +1,57 @@
+/* styles.css */
+.translator-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.language-selectors {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.language-selectors select {
+    padding: 8px;
+    margin: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.icon {
+    font-size: 24px;
+}
+
+.translation-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.translation-input input {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    flex-grow: 1;
+}
+
+.translation-input button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.translation-input button:hover {
+    background-color: #0056b3;
+}
+
+.translated-text p {
+    font-size: 18px;
+    font-weight: bold;
+}
